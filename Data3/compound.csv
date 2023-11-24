@@ -1,0 +1,570 @@
+﻿name,smiles
+Nicotinic acid,OC(=O)C1=CN=CC=C1
+Chinese tannin,OC1=CC(=CC(O)=C1O)C(=O)OC1=CC(=CC(O)=C1O)C(=O)OCC1OC(OC(=O)C2=CC(O)=C(O)C(OC(=O)C3=CC(O)=C(O)C(O)=C3)=C2)C(OC(=O)C2=CC(O)=C(O)C(OC(=O)C3=CC(O)=C(O)C(O)=C3)=C2)C(OC(=O)C2=CC(O)=C(O)C(OC(=O)C3=CC(O)=C(O)C(O)=C3)=C2)C1OC(=O)C1=CC(O)=C(O)C(OC(=O)C2=CC(O)=C(O)C(O)=C2)=C1
+L-Ascorbic acid,[H][C@@]1(OC(=O)C(O)=C1O)[C@@H](O)CO
+Calcium,[Ca++]
+Phosphorus,P
+Potassium,[K+]
+Sodium,[Na]
+beta-Cryptoxanthin,C\C(\C=C\C=C(/C)\C=C\C1=C(C)CCCC1(C)C)=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C1=C(C)CC(O)CC1(C)C
+Riboflavine,CC1=C(C)C=C2N(C[C@H](O)[C@H](O)[C@H](O)CO)C3=NC(=O)NC(=O)C3=NC2=C1
+beta-Carotene,C\C(\C=C\C=C(/C)\C=C\C1=C(C)CCCC1(C)C)=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C1=C(C)CCCC1(C)C
+Lutein,C\C(\C=C\C=C(/C)\C=C\[C@H]1C(C)=C[C@H](O)CC1(C)C)=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C1=C(C)C[C@@H](O)CC1(C)C
+Iron,[Fe]
+Pectic acid,O[C@H]1O[C@@H]([C@H](O[C@H]2O[C@@H]([C@H](O[C@H]3O[C@@H]([C@H](O)[C@H](O)[C@H]3O)C(O)=O)[C@H](O)[C@H]2O)C(O)=O)[C@H](O)[C@H]1O)C(O)=O
+L-Tyrosine,NC(CC1=CC=C(O)C=C1)C(O)=O
+L-Lysine,NCCCC[C@H](N)C(O)=O
+Glycine,NCC(O)=O
+L-Alanine,C[C@H](N)C(O)=O
+alpha-Tocopherol,CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC[C@]1(C)CCC2=C(O1)C(C)=C(C)C(O)=C2C
+Pyridoxine,CC1=C(O)C(CO)=C(CO)C=N1
+Choline,C[N+](C)(C)CCO
+Vanillic acid,COC1=C(O)C=CC(=C1)C(O)=O
+Sucrose,OCC1OC(CO)(OC2OC(CO)C(O)C(O)C2O)C(O)C1O
+L-Leucine,CC(C)CC(N)C(O)=O
+Trigonelline,C[N+]1=CC=CC(=C1)C([O-])=O
+L-Tryptophan,N[C@@H](CC1=CNC2=C1C=CC=C2)C(O)=O
+Arginine,N[C@@H](CCCNC(N)=N)C(O)=O
+Chromium,[Cr]
+Aluminum,[AlH3]
+Boron,B
+Cobalt,[Co]
+Copper,[Cu]
+Manganese,[Mn]
+Molybdenum,[Mo]
+Prostaglandin A-1,CCCCCC(O)\C=C/C1C=CC(=O)C1CCCCCCC(O)=O
+Silicon,[SiH4]
+Sulfur,[S]
+Zinc,[Zn]
+Arsenic,[AsH3]
+Cadmium,[Cd]
+Lead,[Pb++]
+Mercury,[Hg]
+Lithium,[Li]
+Silver,[Ag]
+Pyruvic acid,CC(=O)C(O)=O.OC(=C)C(O)=O
+Pantothenic acid,CC(C)(CO)C(O)C(=O)NCCC(O)=O
+Diphenylamine,N(C1=CC=CC=C1)C1=CC=CC=C1
+4-Hydroxybenzoic acid,OC(=O)C1=CC=C(O)C=C1
+beta-D-Glucopyranose,OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O
+L-Histidine,NC(CC1=CN=CN1)C(O)=O
+Quercetin,OC1=CC2=C(C(O)=C1)C(=O)C(O)=C(O2)C1=CC=C(O)C(O)=C1
+L-Threonine,C[C@@H](O)[C@H](N)C(O)=O
+L-Isoleucine,CCC(C)C(N)C(O)=O
+D-Fructose,OCC(O)C(O)C(O)C(=O)CO.OCC1OC(O)(CO)C(O)C1O.OCC1(O)OCC(O)C(O)C1O
+L-Cystine,NC(CSSCC(N)C(O)=O)C(O)=O
+L-Aspartic acid,N[C@@H](CC(O)=O)C(O)=O
+L-Methionine,CSCC[C@H](N)C(O)=O
+L-Serine,NC(CO)C(O)=O
+Oleic acid,CCCCCCCC\C=C\CCCCCCCC(O)=O
+Selenium,[Se]
+Nickel,[Ni]
+Phloroglucinol,OC1=CC(O)=CC(O)=C1
+Quercetin 4'-glucoside,OC[C@H]1O[C@@H](OC2=CC=C(C=C2O)C2=C(O)C(=O)C3=C(O2)C=C(O)C=C3O)[C@H](O)[C@@H](O)[C@@H]1O
+Kaempferol,OC1=CC=C(C=C1)C1=C(O)C(=O)C2=C(O1)C=C(O)C=C2O
+p-Coumaric acid,OC(=O)\C=C\C1=CC=C(O)C=C1
+alpha-Linolenic acid,CC\C=C/C\C=C/C\C=C/CCCCCCCC(O)=O
+L-Glutamic acid,N[C@@H](CCC(O)=O)C(O)=O
+"(Z,Z)-9,12-Octadecadienoic acid",[H]\C(CCCCC)=C(/[H])C\C([H])=C(/[H])CCCCCCCC(O)=O
+Dodecanoic acid,CCCCCCCCCCCC(O)=O
+Octanoic acid,CCCCCCCC(O)=O
+Iodine,II
+Tin,[SnH4]
+Vanadium,[V]
+Decanoic acid,CCCCCCCCCC(O)=O
+Folic acid,NC1=NC(=O)C2=NC(CNC3=CC=C(C=C3)C(=O)N[C@@H](CCC(O)=O)C(O)=O)=CN=C2N1
+Chlorine,ClCl
+Ethanol,CCO
+L-Asparagine,N[C@@H](CC(N)=O)C(O)=O
+4-Aminobenzoic acid,NC1=CC=C(C=C1)C(O)=O
+Starch,OCC1OC(O)C(O)C(O)C1O
+Cellulose,OCC1OC(OC2C(O)C(O)C(O)OC2CO)C(O)C(O)C1O
+Methyl 3-methylbutanoate,COC(=O)CC(C)C
+Ethyl isovalerate,CCOC(=O)CC(C)C
+Ethyl acetate,CCOC(C)=O
+Methyl caprylate,CCCCCCCC(=O)OC
+Malic acid,OC(CC(O)=O)C(O)=O
+Acetaldehyde,CC=O
+Serotonin,NCCC1=CNC2=CC=C(O)C=C12
+Levoglutamide,NC(CCC(O)=N)C(O)=O
+Ethyl acrylate,CCOC(=O)C=C
+Chavicol,OC1=CC=C(CC=C)C=C1
+Ferulic acid,[H]\C(=C(/[H])C1=CC(OC)=C(O)C=C1)C(O)=O
+Dillapiol,COC1=C(OC)C(CC=C)=CC2=C1OCO2
+Anethole,COC1=CC=C(\C=C/C)C=C1
+trans-Carveol,CC(=C)C1CC=C(C)C(O)C1
+Decanal,CCCCCCCCCC=O
+Geraniol,CC(C)=CCC\C(C)=C\CO
+(R)-Limonene,CC(=C)[C@@H]1CCC(C)=CC1
+beta-Elemene,CC(=C)[C@@H]1CC[C@@](C)(C=C)[C@@H](C1)C(C)=C
+(S)-Carvone,CC(=C)[C@@H]1CC=C(C)C(=O)C1
+p-Menth-1-en-4-ol,CC(C)C1(O)CCC(C)=CC1
+beta-Phellandrene,CC(C)C1CCC(=C)C=C1
+gamma-Terpinene,CC(C)C1=CCC(C)=CC1
+1-Isopropyl-4-methylbenzene,CC(C)C1=CC=C(C)C=C1
+"7-Methyl-3-methylene-1,6-octadiene",CC(C)=CCCC(=C)C=C
+Anonaine,C1OC2=C(O1)C1=C3C(CC4=CC=CC=C14)NCCC3=C2
+3-Methylbutanoic acid,CC(C)CC(O)=O
+cis-beta-Ocimene,CC(C)=CC\C=C(\C)C=C
+Bergapten,COC1=C2C=CC(=O)OC2=CC2=C1C=CO2
+beta-Eudesmol,CC(C)(O)[C@@H]1CC[C@@]2(C)CCCC(=C)[C@@H]2C1
+cis-Ligustilide,CCC1(C)C2OC(=O)C3C=CCCC123
+"3-N-Butyl-4,5-dihydrophthalide",CCCCC1OC(=O)C2=C1CCC=C2
+Santalol (alpha and beta),[H]\C(CC[C@@]1(C)C(=C)[C@]2([H])CC[C@@]1([H])C2)=C(/C)CO.[H]\C(CC[C@]1(C)C2([H])CC3([H])[C@]([H])(C2)C13C)=C(/C)CO
+3-Butyl-1(3H)-isobenzofuranone,CCCCC1OC(=O)C2=C1C=CC=C2
+Propanal,CCC=O
+Xanthotoxin,COC1=C2OC(=O)C=CC2=CC2=C1OC=C2
+Psoralen,O=C1OC2=CC3=C(C=CO3)C=C2C=C1
+Ligustilide,CCC\C=C1\OC(=O)C2=C1CCC=C2
+Neocnidilide,CCCCC1OC(=O)C2=CCCCC12
+beta-Selinene,CC(=C)C1CCC2(C)CCCC(=C)C2C1
+alpha-Terpineol,CC1=CCC(CC1)C(C)(C)O
+Carvone,CC(=C)C1CC=C(C)C(=O)C1
+Perillaldehyde,[H]C(=O)C1=CCC(CC1)C(C)=C
+Linalool,CC(C)=CCCC(C)(O)C=C
+alpha-Humulene,C\C1=C\CC(C)(C)\C=C/C\C(C)=C/CC1
+beta-Pinene,CC1(C)C2CC1C(=C)CC2
+beta-Caryophyllene,C\C1=C\CCC(=C)C2CC(C)(C)C2CC1
+Syringic acid,COC1=CC(=CC(OC)=C1O)C(O)=O
+Gentisic acid,OC(=O)C1=C(O)C=CC(O)=C1
+gamma-Tocopherol,CC(C)CCCC(C)CCCC(C)CCCC1(C)CCC2=CC(O)=C(C)C(C)=C2O1
+Caffeic acid,OC(=O)\C=C\C1=CC(O)=C(O)C=C1
+Isoferulic acid,COC1=C(O)C=C(\C=C\C(O)=O)C=C1
+Isochlorogenic acid,OC1CC(O)(CC(OC(=O)\C=C\C2=CC=C(O)C(O)=C2)C1O)C(O)=O
+trans-Sinapic acid,COC1=CC(\C=C\C(O)=O)=CC(OC)=C1O
+o-Coumaric acid,OC(=O)\C=C\C1=CC=CC=C1O
+Phosphatidylcholine,CCCCCCCCCCCCCCCC(=O)OC[C@]([H])(COP([O-])(=O)OCC[N+](C)(C)C)OC(=O)CCCCCCC\C=C/CCCCCCCC
+Inulin,OCC1OC(CO)(OCC2(OC3OC(CO)C(O)C(O)C3O)OC(CO)C(O)C2O)C(O)C1O
+(-)-Arctigenin,COC1=CC=C(C[C@H]2COC(=O)[C@@H]2CC2=CC=C(O)C(OC)=C2)C=C1OC
+(-)-Arctiin,COC1=CC=C(C[C@H]2COC(=O)[C@@H]2CC2=CC=C(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)C(OC)=C2)C=C1OC
+Atropine,CN1C2CCC1CC(C2)OC(=O)C(CO)C1=CC=CC=C1
+(-)-Matairesinol,COC1CC(CC2COC(=O)C2CC2CCC(O)C(C2)OC)CCC1O
+3-Isothiocyanato-1-propene,C=CCN=C=S
+Isorhamnetin,COC1=C(O)C=CC(=C1)C1=C(O)C(=O)C2=C(O)C=C(O)C=C2O1
+(S)-Naringenin,[H][C@]1(CC(=O)C2=C(O1)C=C(O)C=C2O)C1=CC=C(O)C=C1
+Maltose,OC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)C(O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1O
+Quercetin 3-rutinoside,C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](OC3=C(OC4=CC(O)=CC(O)=C4C3=O)C3=CC(O)=C(O)C=C3)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O
+Scoparone,COC1=C(OC)C=C2C=CC(=O)OC2=C1
+Methyleugenol,COC1=C(OC)C=C(CC=C)C=C1
+D-Camphor,CC1(C)C2CCC1(C)C(=O)C2
+3-(4-Methoxyphenyl)-2-propenal,COC1=CC=C(\C=C\C=O)C=C1
+1-Methoxy-4-(2-propenyl)benzene,COC1=CC=C(CC=C)C=C1
+4(10)-Thujene,CC(C)C12CC1C(=C)CC2
+(-)-Menthol,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1O
+"1,8-Cineole",CC12CCC(CC1)C(C)(C)O2
+Nerol,CC(C)=CCC\C(C)=C/CO
+(-)-3-Isothujone,CC(C)[C@@]12C[C@@H]1[C@@H](C)C(=O)C2
+cis-Dehydromatricaria ester,COC(=O)\C=C\C#CC#CC#CC
+Spermine,NCCCNCCCCNCCCN
+Betaine,C[N+](C)(C)CC([O-])=O
+Lignin,[Na+].[Na+].CC(=O)NC1=C2C(=O)C(=NNC3=CC=CC=C3)C(=CC2=C(C=C1)S([O-])(=O)=O)S([O-])(=O)=O
+Spermidine,NCCCCNCCCN
+Scopoletin,COC1=C(O)C=C2OC(=O)C=CC2=C1
+Biotin,OC(=O)CCCCC1SCC2NC(=O)NC12
+Tartaric acid,O[C@H]([C@@H](O)C(O)=O)C(O)=O
+Succinic acid,OC(=O)CCC(O)=O
+Fumaric acid,OC(=O)\C=C/C(O)=O
+Allantoin,NC(=O)NC1NC(=O)NC1=O
+Rosmarinic acid,[H]\C(=C(\[H])C1=CC(O)=C(O)C=C1)C(=O)OC(CC1=CC(O)=C(O)C=C1)C(O)=O
+Gamolenic acid,CCCCC\C=C/C\C=C\C\C=C/CCCCC(O)=O
+Silicic acid,O[Si](O)(O)O
+Amabiline,[H][C@@]12CCCN1CC=C2COC(=O)[C@](O)(C(C)C)[C@H](C)O
+Hexane,CCCCCC
+2-Methoxy-4-vinylphenol,COC1=CC(C=C)=CC=C1O
+1H-Indole-3-acetonitrile,N#CCC1=CNC2=C1C=CC=C2
+Cetyl alcohol,CCCCCCCCCCCCCCCCO
+3-Methylbutanal,CC(C)CC=O
+Dimethyl disulfide,CSSC
+Dimethyl sulfide,CSC
+Hexanal,CCCCCC=O
+(E)-2-Hexen-1-ol,CCC\C=C\CO
+(Z)-3-Hexen-1-ol,CC\C=C/CCO
+1-Pentanol,CCCCCO
+"2,3-Butanedione",CC(=O)C(C)=O
+Indole,C1C=NC2=C1C=CC=C2.N1C=CC2=C1C=CC=C2
+Toluene,CC1=CC=CC=C1
+Benzaldehyde,O=CC1=CC=CC=C1
+Pyridine,C1=CC=NC=C1
+Theophylline,CN1C2=C(NC=N2)C(=O)N(C)C1=O
+(-)-Epiafzelechin,O[C@@H]1CC2=C(O[C@@H]1C1=CC=C(O)C=C1)C=C(O)C=C2O
+Nonanal,CCCCCCCCC=O
+Ammonia,N
+Methylamine,CN
+Theaflavin,OC1CC2=C(O)C=C(O)C=C2OC1C1=CC(O)=C(O)C2=C1C=C(C=C(O)C2=O)C1OC2=CC(O)=CC(O)=C2CC1O
+L-Theanine,CCN=C(O)CCC(N)C(O)=O
+Taraxerol,CC1(C)CCC2(C)CC=C3C4(C)CCC5C(C)(C)C(O)CCC5(C)C4CCC3(C)C2C1
+(Z)-3-Methyl-2-(2-pentenyl)-2-cyclopenten-1-one,CC\C=C/CC1=C(C)CCC1=O
+Nerolidol,CC(C)=CCCC(C)=CCCC(C)(O)C=C
+alpha-Ionone,CC(=O)\C=C\C1C(C)=CCCC1(C)C
+beta-Ionone,CC(=O)\C=C\C1=C(C)CCCC1(C)C
+Epicatechin 3-gallate,OC1=CC(O)=C2C[C@@H](OC(=O)C3=CC(O)=C(O)C(O)=C3)[C@H](OC2=C1)C1=CC=C(O)C(O)=C1
+Epigallocatechin,O[C@@H]1CC2=C(O[C@@H]1C1=CC(O)=C(O)C(O)=C1)C=C(O)C=C2O
+Strictinin,OC1C(O)C2OC(=O)C3=CC(O)=C(O)C(O)=C3C3=C(C=C(O)C(O)=C3O)C(=O)OCC2OC1OC(=O)C1=CC(O)=C(O)C(O)=C1
+L-Stachydrine,C[N+]1(C)CCC[C@H]1C([O-])=O
+Capsianoside C,CC1OC(OCC2OC(OC3C(O)C(C)OC(OC\C(C)=C/CC\C(C)=C\CC\C(C)=C\CCC(C)(OC4OC(CO)C(O)C(O)C4OC4OC(CO)C(O)C(O)C4O)C=C)C3O)C(O)C(O)C2O)C(OC(=O)C(\C)=C\C(O)C\C(C)=C\CC\C(C)=C\CCC(C)(OC2OC(CO)C(O)C(O)C2OC2OC(CO)C(O)C(O)C2O)C=C)C(O)C1O
+Capsianoside I,C\C(CC\C=C(/C)CC(O)\C=C(/C)C(O)=O)=C/CCC(C)(OC1OC(CO)C(O)C(O)C1OC1OC(CO)C(O)C(O)C1O)C=C
+Capsianoside D,C[C@@H]1O[C@@H](OC\C(C)=C/CC\C(C)=C\CC\C(C)=C\CC[C@](C)(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C=C)[C@H](O)[C@H](O[C@@H]2O[C@H](CO[C@H]3O[C@@H](C)[C@H](O)[C@@H](OC(=O)C(\C)=C\[C@H](O)C\C(C)=C\CC\C(C)=C\CC[C@](C)(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)C=C)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O
+Solanidine,CC1C2CCC(C)CN2C2CC3C4CC=C5CC(O)CCC5(C)C4CCC3(C)C12
+Capsianside A,CC1OC(OCC2OC(OC3C(O)C(C)OC(OC\C(C)=C\CC\C(C)=C/CC\C(C)=C\CCC(C)(OC4OC(CO)C(O)C(O)C4OC4OC(CO)C(O)C(O)C4O)C=C)C3O)C(O)C(O)C2O)C(OC(=O)C(\C)=C/C(O)C\C(C)=C/CC\C(C)=C/CCC(C)(OC2OC(CO)C(O)C(O)C2O)C=C)C(O)C1O
+Capsaicin,COC1=C(O)C=CC(CNC(=O)CCCC\C=C/C(C)C)=C1
+Piperidine,C1CCNCC1
+Myricetin,OC1=CC(O)=C2C(OC(=C(O)C2=O)C2=CC(O)=C(O)C(O)=C2)=C1
+Luteolin,OC1=CC2=C(C(O)=C1)C(=O)C=C(O2)C1=CC=C(O)C(O)=C1
+Capsidiol,CC1C(O)CC(O)C2=CCC(CC12C)C(C)=C
+Dihydrocapsaicin,COC1=C(O)C=CC(CNC(=O)CCCCCCC(C)C)=C1
+"(3R,3'R, all-E)-Zeaxanthin",O[C@H]1CC(C)=C(\C=C\C(\C)=C\C=C\C(\C)=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C\C2=C(C)C[C@H](O)CC2(C)C)C(C)(C)C1
+Phenol,OC1=CC=CC=C1
+alpha-Copaene,[H][C@@]12C3C(C)=CC[C@]1([H])[C@]3(C)CC[C@H]2C(C)C
+1-Pentadecene,CCCCCCCCCCCCCC=C
+Pentanal,CCCCC=O
+2-Methyl-1-propanol,CC(C)CO
+Germacrene D,CC(C)[C@@H]1CC\C(C)=C\CCC(=C)\C=C\1
+alpha-Cedrene,[H][C@@]12CC[C@@H](C)[C@]11C[C@@H](C(C)=CC1)C2(C)C
+1-Hexanol,CCCCCCO
+Verbenone,CC1=CC(=O)C2CC1C2(C)C
+Methyl cinnamate,COC(=O)\C=C/C1=CC=CC=C1
+Carthamin,OCC1OC(C(O)C(O)C1O)C1(O)C(O)=C(\C=C2/C(=O)C(C(=O)\C=C\C3=CC=C(O)C=C3)=C(O)C(O)(C3OC(CO)C(O)C(O)C3O)C2=O)C(=O)C(C(=O)\C=C\C2=CC=C(O)C=C2)=C1O
+Phenylacetaldehyde,O=CCC1=CC=CC=C1
+Benzene,C1=CC=CC=C1
+Limonene,CC(=C)C1CCC(C)=CC1
+"(+)-1(10),4-Cadinadiene",[H][C@@]12C=C(C)CCC1=C(C)CC[C@H]2C(C)C
+Octanal,CCCCCCCC=O
+Cadinene,CC(C)C1CCC(C)C2CCC(C)CC12
+Camphene,CC1(C)C2CCC(C2)C1=C
+Dihydrocarveol,CC1CCC(CC1O)C(C)=C
+alpha-Carene,CC1=CCC2C(C1)C2(C)C
+Myristicin,COC1=CC(CC=C)=CC2=C1OCO2
+Carveol,CC(=C)C1CC=C(C)C(O)C1
+"p-Mentha-1,8-dien-7-ol",CC(=C)C1CCC(CO)=CC1
+Dihydrocarveol acetate,CC1CCC(CC1OC(C)=O)C(C)=C
+Cichoriin,OCC1OC(OC2=C(O)C=C3C=CC(=O)OC3=C2)C(O)C(O)C1O
+3-Phenyl-2-propenal,O=C\C=C/C1=CC=CC=C1
+Cinnamyl alcohol,OCC=CC1=CC=CC=C1
+Cinnamyl acetate,CC(=O)OC\C=C/C1=CC=CC=C1
+alpha-Ylangene,[H][C@]12C3C(C)=CC[C@@]1([H])[C@]3(C)CC[C@H]2C(C)C
+Isoeugenol,COC1=CC(\C=C\C)=CC=C1O
+Phellandrene,CC(C)C1CC=C(C)C=C1
+Cuminaldehyde,[H]C(=O)C1=CC=C(C=C1)C(C)C
+Bornyl acetate,CC(=O)O[C@@H]1C[C@@H]2CC[C@@]1(C)C2(C)C
+3-Phenylpropyl acetate,CC(=O)OCCCC1=CC=CC=C1
+2-Phenylethanol,OCCC1=CC=CC=C1
+Eugenol,COC1=C(O)C=CC(CC=C)=C1
+Isopropylbenzene,CC(C)C1=CC=CC=C1
+Aceteugenol,COC1=C(OC(C)=O)C=CC(CC=C)=C1
+Benzyl benzoate,O=C(OCC1=CC=CC=C1)C1=CC=CC=C1
+Piperitone,CC(C)C1CCC(C)=CC1=O
+L-Borneol,CC1(C)[C@H]2CC[C@]1(C)[C@H](O)C2
+Farnesol,CC(C)=CCC\C(C)=C\CC\C(C)=C\CO
+Terpinolene,CC(C)=C1CCC(C)=CC1
+L-Cysteine,N[C@@H](CS)C(O)=O
+Lauric aldehyde,CCCCCCCCCCCC=O
+1-Decanol,CCCCCCCCCCO
+Fenchol,CC1(C)C2CCC(C)(C2)C1O
+Neral,CC(C)=CCC\C(C)=C/C=O
+Geranial,CC(C)=CCC\C(C)=C\C=O
+Citronellal,CC(CCC=C(C)C)CC=O
+Nootkatone,CC1CC(=O)C=C2CCC(CC12C)C(C)=C
+Neryl acetate,CC(C)=CCC\C(C)=C/COC(C)=O
+S-beta-Bisabolene,CC(C)=CCCC(=C)C1CCC(C)=CC1
+beta-Terpineol,CC(=C)C1CCC(C)(O)CC1
+Decyl acetate,CCCCCCCCCCOC(C)=O
+Neryl formate,CC(C)=CCC\C(C)=C/COC=O
+Caffeine,CN1C=NC2=C1C(=O)N(C)C(=O)N2C
+Salicylates,OC(=O)C1=CC=CC=C1[O-]
+Oxypeucedanin hydrate,CC(C)(O)[C@H](O)COC1=C2C=COC2=CC2=C1C=CC(=O)O2
+L-Citronellyl acetate,CC(CCOC(C)=O)CCC=C(C)C
+(-)-Isopulegol,C[C@@H]1CC[C@H]([C@H](O)C1)C(C)=C
+Nonanoic acid,CCCCCCCCC(O)=O
+Benzyl alcohol,OCC1=CC=CC=C1
+alpha-Carotene,C/C(=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C\C1=C(C)CCCC1(C)C)/C=C/C=C(\C)/C=C/[C@H]1C(C)=CCCC1(C)C
+Citronellol,CC(CCO)CCC=C(C)C
+alpha-Selinene,CC(=C)C1CCC2(C)CCC=C(C)C2C1
+2-Isopropyl-5-methylphenol,CC(C)C1=C(O)C=C(C)C=C1
+beta-Sesquiphellandrene,CC(CCC=C(C)C)C1CCC(=C)C=C1
+Hydroquinone,OC1=CC=C(O)C=C1
+Xanthyletin,CC1(C)OC2=C(C=C1)C=C1C=CC(=O)OC1=C2
+Nordentatin,CC(C)(C=C)C1=C(O)C2=C(OC(C)(C)C=C2)C2=C1OC(=O)C=C2
+alpha-Elemol,CC(=C)[C@@H]1C[C@@H](CC[C@@]1(C)C=C)C(C)(C)O
+Methanol,CO
+Subaphylline,COC1=C(O)C=CC(\C=C/C(=O)NCCCCN)=C1
+Ethyl butyrate,CCCC(=O)OCC
+Methyl butyrate,CCCC(=O)OC
+Xanthoxyletin,COC1=C2C=CC(=O)OC2=CC2=C1C=CC(C)(C)O2
+"(3E,6E)-alpha-Farnesene",CC(C)=CCC\C(C)=C\C\C=C(/C)C=C
+Theobromine,CN1C=NC2=C1C(=O)NC(=O)N2C
+Ethyl hexadecanoate,CCCCCCCCCCCCCCCC(=O)OCC
+Undecanal,CCCCCCCCCCC=O
+Cinnamic acid,OC(=O)\C=C/C1=CC=CC=C1
+Ethyl tetradecanoate,CCCCCCCCCCCCCC(=O)OCC
+Uranium,[U]
+Gold,[Au]
+alpha-Crocin,C\C(\C=C\C=C(/C)C(=O)OC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O)=C\C=C\C=C(/C)\C=C\C=C(\C)C(=O)OC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O
+L-Citrulline,NC(CCCNC(O)=N)C(O)=O
+4-Methoxybenzaldehyde,COC1=CC=C(C=O)C=C1
+Cuminyl alcohol,CC(C)C1=CC=C(CO)C=C1
+(+)-trans-Pinocarveol,CC1(C)[C@@H]2C[C@H]1C(=C)[C@@H](O)C2
+Benzyl cinnamate,O=C(OCC1=CC=CC=C1)\C=C/C1=CC=CC=C1
+Stigmasterol,[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC=C4C[C@@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)\C=C\[C@@H](CC)C(C)C
+trans-p-Methoxycinnamic acid,COC1=CC=C(\C=C\C(O)=O)C=C1
+alpha-Curcumene,CC(CCC=C)C1=CC=C(C)C=C1
+Isoborneol,CC1(C)[C@@H]2CC[C@@]1(C)[C@H](O)C2
+Cyclocurcumin,COC1=C(O)C=CC(\C=C\C2=CC(=O)CC(O2)C2=CC(OC)=C(O)C=C2)=C1
+Bisdemethoxycurcumin,O\C(\C=C\C1=CC=C(O)C=C1)=C/C(=O)/C=C/C1=CC=C(O)C=C1
+Curcumenol,CC1CCC2C(C)=CC3(O)OC12CC3=C(C)C
+Curcumin,COC1=CC(\C=C\C(=O)CC(=O)\C=C\C2=CC(OC)=C(O)C=C2)=CC=C1O
+beta-Sitosterol,[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC=C4C[C@@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CC[C@@H](CC)C(C)C
+1-(4-Methylphenyl)ethanol,CC(O)C1=CC=C(C)C=C1
+Curdione,CC(C)C1CC(=O)C(C)CC\C=C(C)/CC1=O
+(R)-ar-Turmerone,CC(CC(=O)C=C(C)C)C1=CC=C(C)C=C1
+Zingiberene,CC(CCC=C(C)C)C1CC=C(C)C=C1
+Curlone,CC(CC(=O)C=C(C)C)C1CCC(=C)C=C1
+Turmerone,CC(CC(=O)C=C(C)C)C1=CCC(C)=CC1
+Amygdalin,OCC1OC(OCC2OC(OC(C#N)C3=CC=CC=C3)C(O)C(O)C2O)C(O)C(O)C1O
+Phytic acid,OP(O)(=O)O[C@H]1[C@H](OP(O)(O)=O)[C@@H](OP(O)(O)=O)[C@H](OP(O)(O)=O)[C@H](OP(O)(O)=O)[C@@H]1OP(O)(O)=O
+Osthol,COC1=CC=C2C=CC(=O)OC2=C1CC=C(C)C
+alpha-Terpinyl acetate,CC(=O)OC(C)(C)C1CCC(C)=CC1
+trans-Isoasarone,COC1=CC(OC)=C(\C=C\C)C=C1OC
+Geranylacetone,CC(C)=CCC\C(C)=C/CCC(C)=O
+Elemicin,COC1=CC(CC=C)=CC(OC)=C1OC
+Falcarindiol,CCCCCCC\C=C/C(O)C#CC#CC(O)C=C
+Diosgenin,CC1C2C(CC3C4CC=C5CC(O)CCC5(C)C4CCC23C)OC11CCC(C)CO1
+Biphenyl,C1=CC=C(C=C1)C1=CC=CC=C1
+Luteolin 7-glucoside,OC[C@H]1O[C@@H](OC2=CC3=C(C(O)=C2)C(=O)C=C(O3)C2=CC=C(O)C(O)=C2)[C@H](O)[C@@H](O)[C@@H]1O
+"2,6,10-Bisabolatriene",CC(C)=CCC\C(C)=C1/CCC(C)=CC1
+Linalyl acetate,CC(C)=CCCC(C)(OC(C)=O)C=C
+D-Glucitol,OC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO
+Campesterol,CC(C)[C@H](C)CC[C@@H](C)C1CCC2C3CC=C4C[C@@H](O)CC[C@]4(C)C3CC[C@]12C
+cis-Anethole,COC1=CC=C(\C=C/C)C=C1
+Isopimpinellin,COC1=C2OC=CC2=C(OC)C2=C1OC(=O)C=C2
+Imperatorin,CC(C)=CCOC1=C2OC(=O)C=CC2=CC2=C1OC=C2
+Raffinose,OCC1OC(CO)(OC2OC(COC3OC(CO)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C1O
+Gallic acid,OC(=O)C1=CC(O)=C(O)C(O)=C1
+Glycitein,COC1=C(O)C=C2OC=C(C(=O)C2=C1)C1=CC=C(O)C=C1
+Daidzein,OC1=CC=C(C=C1)C1=COC2=C(C=CC(O)=C2)C1=O
+Saponins,[H]\C(C)=C(/C)C(=O)O[C@@]1([H])[C@]([H])(OC(C)=O)[C@]2(CO)[C@]([H])(O)C[C@]3(C)C(=CCC4([H])[C@@]5(C)CC[C@]([H])(O[C@]6([H])O[C@]([H])(C(O)=O)[C@@]([H])(O[C@]7([H])O[C@]([H])(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]7([H])O)[C@]([H])(O)[C@@]6([H])O[C@]6([H])O[C@]([H])(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]6([H])O)[C@](C)(CO)C5([H])CC[C@@]34C)C2([H])CC1(C)C
+Phosphatidylethanolamine,[H][C@@](CO\C=C/CCCCCCCC\C=C/CCCCCC)(COP(O)(=O)OCCN)OC(=O)CCC\C=C/C\C=C/C\C=C/C\C=C/C\C=C/CC
+Verbascose,OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO[C@H]3O[C@H](CO[C@H]4O[C@H](CO[C@H]5O[C@H](CO)[C@H](O)[C@H](O)[C@H]5O)[C@H](O)[C@H](O)[C@H]4O)[C@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O
+Genistein,OC1=CC=C(C=C1)C1=COC2=CC(O)=CC(O)=C2C1=O
+Genistin,OCC1OC(OC2=CC(O)=C3C(=O)C(=COC3=C2)C2=CC=C(O)C=C2)C(O)C(O)C1O
+Daidzin,OC[C@H]1O[C@@H](OC2=CC3=C(C=C2)C(=O)C(=CO3)C2=CC=C(O)C=C2)[C@H](O)[C@@H](O)[C@@H]1O
+Adenine,NC1=C2N=CN=C2N=CN1.NC1=NC=NC2=C1NC=N2.NC1=NC=NC2=C1N=CN2.NC1=C2N=CN=C2NC=N1
+D-Pinitol,CO[C@@H]1[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)[C@H]1O
+L-5-Oxo-2-pyrrolidinecarboxylic acid,OC(=O)[C@@H]1CCC(=O)N1
+Gossypol,CC(C)C1=C2C=C(C)C(=C(O)C2=C(C=O)C(O)=C1O)C1=C(O)C2=C(C=O)C(O)=C(O)C(C(C)C)=C2C=C1C
+Vanillin,COC1=CC(C=O)=CC=C1O
+Quercetin 7-glucoside,OC[C@H]1O[C@@H](OC2=CC(O)=C3C(=O)C(O)=C(OC3=C2)C2=CC=C(O)C(O)=C2)[C@H](O)[C@@H](O)[C@@H]1O
+Niveusin C,C\C=C(\C)C(=O)O[C@@H]1C[C@@]2(C)O[C@](O)(C[C@@H]2O)\C(C)=C/[C@@H]2OC(=O)C(=C)[C@H]12
+Cholesterol,CC(C)CCCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C
+Faradiol,CC1C2C3CCC4C5(C)CCC(O)C(C)(C)C5CCC4(C)C3(C)CC(O)C2(C)CC=C1C
+Argophyllin B,C\C=C(\C)C(=O)O[C@@H]1C[C@@]2(C)O[C@@H]2C[C@H](O)[C@H](CO)C[C@H]2OC(=O)C(=C)[C@H]12
+N-Methyltyramine,CNCCC1=CC=C(O)C=C1
+Diethylamine,CCNCC
+Dimethylamine,CNC
+Hordenine,CN(C)CCC1=CC=C(O)C=C1
+Diosmetin 7-rutinoside,COC1=C(O)C=C(C=C1)C1=CC(=O)C2=C(O1)C=C(OC1OC(COC3OC(C)C(O)C(O)C3O)C(O)C(O)C1O)C=C2O
+Hesperidin,COC1=CC=C(C=C1O)[C@@H]1CC(=O)C2=C(O1)C=C(O[C@@H]1O[C@H](CO[C@@H]3O[C@@H](C)[C@H](O)[C@@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]1O)C=C2O
+3-Octanol,CCCCCC(O)CC
+Methyl salicylate,COC(=O)C1=CC=CC=C1O
+L-Myrtenol,CC1(C)C2CC1C(CO)=CC2
+Myrtenal,CC1(C)C2CC1C(C=O)=CC2
+Ursolic acid,[H][C@@]12[C@@H](C)[C@H](C)CC[C@@]1(CC[C@]1(C)C2=CC[C@]2([H])[C@@]3(C)CC[C@H](O)C(C)(C)C3CC[C@@]12C)C(O)=O
+(-)-Isopinocamphone,C[C@H]1[C@@H]2C[C@H](CC1=O)C2(C)C
+5-Isopropyl-2-methylphenol,CC(C)C1=CC(O)=C(C)C=C1
+(+)-3-Thujone,CC(C)[C@@]12C[C@@H]1[C@H](C)C(=O)C2
+(-)-Pinocamphone,C[C@@H]1[C@@H]2C[C@H](CC1=O)C2(C)C
+Pinocarvone,CC1(C)C2CC1C(=C)C(=O)C2
+Methyl 4-methoxybenzoate,COC(=O)C1=CC=C(OC)C=C1
+Fenchone,CC1(C)C2CCC(C)(C2)C1=O
+Methylisoeugenol,COC1=C(OC)C=C(\C=C/C)C=C1
+Calcium oxalate,[Ca++].[O-]C(=O)C([O-])=O
+Naphthalene,C1=CC2=CC=CC=C2C=C1
+Juglone,OC1=CC=CC2=C1C(=O)C=CC2=O
+Ellagic acid,OC1=C(O)C2=C3C(=C1)C(=O)OC1=C3C(=CC(O)=C1O)C(=O)O2
+"4-Hydroxy-3,5-dimethoxybenzaldehyde",COC1=CC(C=O)=CC(OC)=C1O
+Betulinic acid,CC(=C)C1CCC2(CCC3(C)C(CCC4C5(C)CCC(O)C(C)(C)C5CCC34C)C12)C(O)=O
+d-Tocopherol,CC(C)CCCC(C)CCCC(C)CCCC1(C)CCC2=CC(O)=CC(C)=C2O1
+Hyperin,OC[C@H]1O[C@@H](OC2=C(OC3=C(C(O)=CC(O)=C3)C2=O)C2=CC(O)=C(O)C=C2)[C@H](O)[C@@H](O)[C@H]1O
+delta-5-Avenasterol,C\C=C(/C(C)C)CC[C@@H](C)C1CCC2C3CC=C4C[C@@H](O)CC[C@]4(C)C3CC[C@]12C
+Myo-Inositol,O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@H](O)[C@@H]1O
+delta7-Avenasterol,C\C=C(/C(C)C)CC[C@@H](C)C1CCC2C3=CCC4C[C@@H](O)CC[C@]4(C)C3CC[C@]12C
+Artemorin,C\C1=C/[C@H]2OC(=O)C(=C)[C@@H]2CCC(=C)[C@H](O)CC1
+Reynosin,CC12CCC3C(OC(=O)C3=C)C1C(=C)CCC2O
+Santamarin,CC1=CC[C@@H](O)[C@]2(C)CC[C@@H]3[C@H](OC(=O)C3=C)[C@@H]12
+Verlotorin,C\C1=C/C2OC(=O)C(=C)C2CCC(=C)C(CC1)OO
+Costunolide,C\C1=C\CC\C(C)=C/C2OC(=O)C(=C)C2CC1
+Desacetyllaurenobiolide,C\C1=C\CC\C(C)=C/C(O)C2C(C1)OC(=O)C2=C
+Phytomenadione,CC(C)CCCC(C)CCCC(C)CCC\C(C)=C\CC1=C(C)C(=O)C2=CC=CC=C2C1=O
+Erucic acid,CCCCCCCCC=CCCCCCCCCCCCC(O)=O
+Cuparene,CC1=CC=C(C=C1)[C@]1(C)CCCC1(C)C
+Thujopsene,CC1=CCC2(C)CCCC(C)(C)C22CC12
+3-Butylidene-1(3H)-isobenzofuranone,CCC\C=C1\OC(=O)C2=CC=CC=C12
+D-Xylose,OC[C@@H](O)[C@H](O)[C@@H](O)C=O
+Neolinustatin,CCC(C)(OC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O)C#N
+Linustatin,CC(C)(OC1OC(CO)C(O)C(O)C1OC1OC(CO)C(O)C(O)C1O)C#N
+Pinocembrin,OC1=CC(O)=C2C(=O)CC(OC2=C1)C1=CC=CC=C1
+Estrone,[H][C@@]12CCC(=O)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3
+Chlorophyll,[Mg++].[H]\C(COC(=O)CC[C@]1([H])\C2=C3/C4=N/C(=C\C5=C(CC)C(C)=C([N-]5)\C=C5/N\C(=C/C(=N2)[C@@]1([H])C)C(C)=C5C=C)/C(C)=C4C(=O)[C@]3([H])C(=O)OC)=C(\C)CCCC([H])(C)CCCC([H])(C)CCCC(C)C
+N-Heneicosane,CCCCCCCCCCCCCCCCCCCCC
+delta-Cadinol,[H][C@@]1(CC=C(C)C2([H])CCC(C)(O)CC12[H])C(C)C
+alpha-Cadinol,CC(C)C1CCC(C)(O)C2CCC(C)=CC12
+Methyl acetate,COC(C)=O
+L-Menthone,CC(C)[C@@H]1CC[C@@H](C)CC1=O
+(R)-p-Menth-4(8)-en-3-one,CC1CCC(=C(C)C)C(=O)C1
+L-Isomenthone,CC(C)[C@@H]1CC[C@H](C)CC1=O
+Menthofuran,CC1CCC2=C(C1)OC=C2C
+Viridiflorol,CC1CCC2C1C1C(CCC2(C)O)C1(C)C
+(+/-)-2-Hydroxypiperitone,CC(C)C1CCC(C)=C(O)C1=O
+L-Isobornyl acetate,CC(=O)O[C@H]1C[C@@H]2CC[C@@]1(C)C2(C)C
+(-)-Menthone,CC(C)C1CCC(C)CC1=O
+(R)-Piperitone,CC(C)[C@@H]1CCC(C)=CC1=O
+(+)-Neomenthol,CC(C)[C@@H]1CC[C@@H](C)C[C@@H]1O
+Piperitenone,CC(C)=C1CCC(C)=CC1=O
+Rotundifolone,CC(C)=C1CCC2(C)OC2C1=O
+L-Isomenthol,CC(C)[C@@H]1CC[C@H](C)C[C@H]1O
+Fluoride,[F-]
+Charantin,OC(=O)C(O)=O.CCN(CC)CCOC(=O)C(CC1CCCO1)CC1=CC=CC2=CC=CC=C12
+alpha-Eleostearic acid,CCCC\C=C\C=C/C=C/CCCCCCCC(O)=O
+Safrole,C=CCC1=CC2=C(OCO2)C=C1
+L-Limonene,CC(=C)C1CCC(C)=CC1
+(+)-Borneol,CC1(C)[C@H]2CC[C@]1(C)[C@H](O)C2
+Benzyl acetate,CC(=O)OCC1=CC=CC=C1
+Oleanolic acid,CC1(C)CC[C@@]2(CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@@]34C)[C@@H]2C1)C(O)=O
+Xanthomicrol,COC1=C(OC)C(OC)=C2OC(=CC(=O)C2=C1O)C1=CC=C(O)C=C1
+alpha1-Sitosterol,C\C=C(/CCC(C)C1CCC2C3=CCC4C(C)C(O)CCC4(C)C3CCC12C)C(C)C
+beta-Amyrin,CC1(C)CC[C@]2(C)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@@]34C)[C@@H]2C1
+24-Methylenecycloartan-3-ol,[H][C@@]12CC[C@]3([H])[C@]4(C[C@@]14CC[C@]1(C)[C@H](CC[C@@]21C)[C@H](C)CCC(=C)C(C)C)CC[C@H](O)C3(C)C
+Cycloartenol,CC(CCC=C(C)C)C1CCC2(C)C3CCC4C5(CC35CCC12C)CCC(O)C4(C)C
+D-Linalool,CC(C)=CCC[C@](C)(O)C=C
+alpha-Humulene epoxide,[H]C1=C([H])C(C)(C)C[C@@]2([H])O[C@]2(C)CC\C([H])=C(C)\C1
+Elemene,CC(=C)C1CCC(C)(C=C)C(C1)C(C)=C
+Zingerone,COC1=C(O)C=CC(CCC(C)=O)=C1
+2-Isopropyl-5-methylphenol acetate,CC(C)C1=CC=C(C)C=C1OC(C)=O
+(+)-Aromadendrene,CC1CCC2C1C1C(CCC2=C)C1(C)C
+2-Undecanone,CCCCCCCCCC(C)=O
+Tricin,COC1=CC(=CC(OC)=C1O)C1=CC(=O)C2=C(O)C=C(O)C=C2O1
+Hexyl butyrate,CCCCCCOC(=O)CCC
+Angelicin,[H]C1=C([H])C2=C(O1)C([H])=C([H])C1=C2OC(=O)C([H])=C1[H]
+Isoimperatorin,CC(C)=CCOC1=C2C=CC(=O)OC2=CC2=C1C=CO2
+Pentatriacontane,CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Apiole,COC1=C2OCOC2=C(OC)C(CC=C)=C1
+Prangolarin,CC1(C)OC1COC1=C2C=CC(=O)OC2=CC2=C1C=CO2
+8-Hydroxygenistein,OC1=CC=C(C=C1)C1=COC2=C(O)C(O)=CC(O)=C2C1=O
+Stachyose,OCC1OC(CO)(OC2OC(COC3OC(COC4OC(CO)C(O)C(O)C4O)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C1O
+Umbelliferone,OC1=CC2=C(C=C1)C=CC(=O)O2
+1-(4-Methoxyphenyl)-2-propanone,COC1=CC=C(CC(C)=O)C=C1
+4-Methoxybenzyl alcohol,COC1=CC=C(CO)C=C1
+Piperine,O=C(\C=C\C=C\C1=CC2=C(OCO2)C=C1)N1CCCCC1
+Homoserine,NC(CCO)C(O)=O
+Hentriacontane,CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Coumestrol,OC1=CC2=C(C=C1)C1=C(O2)C2=C(OC1=O)C=C(O)C=C2
+Nicotinamide,NC(=O)C1=CC=CN=C1
+Glutathione,N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(O)=O)C(O)=O
+Eicosapentaenoic acid,CC\C=C/C\C=C/C\C=C\C\C=C/C\C=C/CCCC(O)=O
+D-Glucose,OCC(O)C(O)C(O)C(O)C=O.OCC(O)C1OC(O)C(O)C1O.OCC1OC(O)C(O)C(O)C1O
+Squalene,CC(C)=CCC\C(C)=C/CC\C(C)=C\CC\C=C(/C)CC\C=C(/C)CCC=C(C)C
+Glycerol,OCC(O)CO
+D-Mannitol,OCC(O)C(O)C(O)C(O)CO
+Casuarinin,OC1C2OC(=O)C3=C1C(O)=C(O)C(O)=C3C1=C(O)C(O)=C(O)C=C1C(=O)OC2C1OC(=O)C2=CC(O)=C(O)C(O)=C2C2=C(O)C(O)=C(O)C(=C2)C(=O)OCC1OC(=O)C1=CC(O)=C(O)C(O)=C1
+Elaidic acid,CCCCCCCC\C=C\CCCCCCCC(O)=O
+Pedunculagin,OC1OC2COC(=O)C3=C(C(O)=C(O)C(O)=C3)C3=C(C=C(O)C(O)=C3O)C(=O)OC2C2OC(=O)C3=CC(O)=C(O)C(O)=C3C3=C(O)C(O)=C(O)C=C3C(=O)OC12
+Boric acid (H3BO3),OB(O)O
+Punicalagin,OC1OC2COC(=O)C3=CC(O)=C(O)C(O)=C3C3=C4C(=O)OC5=C6C(C(=O)OC(C(O)=C3O)=C46)=C(C(O)=C5O)C3=C(O)C(O)=C(O)C=C3C(=O)OC2C2OC(=O)C3=CC(O)=C(O)C(O)=C3C3=C(O)C(O)=C(O)C=C3C(=O)OC12
+Punicacortein C,[H][C@@]1(O)[C@@H]2OC(=O)C3=C1C(O)=C(O)C(O)=C3C1=C(C=C(O)C(O)=C1O)C(=O)O[C@H]2[C@@H]1OC(=O)C2=CC(O)=C(O)C(O)=C2C2=C3C(=O)OC4=C5C(C(=O)OC(C(O)=C2O)=C35)=C(C(O)=C4O)C2=C(O)C(O)=C(O)C=C2C(=O)OC[C@H]1O
+Punicalin,OC1O[C@@H]2COC(=O)C3=CC(O)=C(O)C(O)=C3C3=C4C(=O)OC5=C6C(C(=O)OC(C(O)=C3O)=C46)=C(C(O)=C5O)C3=C(O)C(O)=C(O)C=C3C(=O)O[C@H]2[C@H](O)[C@H]1O
+Rhapontin,COC1=CC=C(\C=C/C2=CC(OC3OC(CO)C(O)C(O)C3O)=CC(O)=C2)C=C1O
+3-Aminopropanoic acid,NCCC(O)=O
+Catechin,O[C@H]1CC2=C(O)C=C(O)C=C2O[C@@H]1C1=CC(O)=C(O)C=C1
+Anthocyanins,C1=CC=C(C=C1)C1=[O+]C2=CC=CC=C2C=C1
+Oleanolic acid 3-acetate,[H][C@@]1(CC[C@@]2(C)[C@@]([H])(CC[C@]3(C)[C@]2([H])CC=C2[C@]4([H])CC(C)(C)CC[C@@]4(CC[C@@]32C)C(O)=O)C1(C)C)OC(C)=O
+Carnosol,CC(C)C1=CC2=C(C(O)=C1O)C13CCCC(C)(C)C1CC2OC3=O
+Betulin,CC(=C)C1CCC2(CO)CCC3(C)C(CCC4C5(C)CCC(O)C(C)(C)C5CCC34C)C12
+Rosmadial,CC(C)C1=C(O)C2=C(C(C=O)=C1)C1(CCCC(C)(C)C1C=O)C(=O)O2
+(+)-trans-Sabinol,CC(C)[C@@]12C[C@H]1C(C)[C@H](O)C2
+Pinene,CC1=CCC2CC1C2(C)C
+Carnosolic acid,CC(C)C1=CC2=C(C(O)=C1O)C1(CCCC(C)(C)C1CC2O)C(O)=O
+Maslinic acid,CC1(C)CCC2(CCC3(C)C(=CCC4C5(C)CC(O)C(O)C(C)(C)C5CCC34C)C2C1)C(O)=O
+Pomolic acid,CC1CCC2(CCC3(C)C(=CCC4C5(C)CCC(O)C(C)(C)C5CCC34C)C2C1(C)O)C(O)=O
+Cyanidin 3-rutinoside,[H][C@@]1(C)O[C@@]([H])(OC[C@@]2([H])O[C@@]([H])(OC3=CC4=C(C=C(O)C=C4O)[O+]=C3C3=CC(O)=C(O)C=C3)[C@]([H])(O)[C@@]([H])(O)[C@]2([H])O)[C@]([H])(O)[C@]([H])(O)[C@@]1([H])O
+Sambunigrin,OC[C@H]1O[C@@H](O[C@H](C#N)C2=CC=CC=C2)[C@H](O)[C@@H](O)[C@@H]1O
+Thymoquinone,CC(C)C1=CC(=O)C(C)=CC1=O
+Tomatine,CC1C2C(CC3C4CCC5CC(CCC5(C)C4CCC23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CN1
+"3,4-Dicaffeoylquinic acid",O[C@@H]1C[C@](O)(C[C@@H](OC(=O)\C=C\C2=CC=C(O)C(O)=C2)[C@@H]1OC(=O)\C=C\C1=CC=C(O)C(O)=C1)C(O)=O
+Solavetivone,CC1CC(=O)C=C(C)C11CCC(C1)C(C)=C
+Gemin D,OC1OC2COC(=O)C3=CC(O)=C(O)C(O)=C3C3=C(O)C(O)=C(O)C=C3C(=O)OC2C(OC(=O)C2=CC(O)=C(O)C(O)=C2)C1O
+2-Nonanone,CCCCCCCC(C)=O
+Rugosin A,OC(=O)C1=C(OC2=CC3=C(C(O)=C2O)C2=C(C=C(O)C(O)=C2O)C(=O)OC2C(COC3=O)OC(OC(=O)C3=CC(O)=C(O)C(O)=C3)C(OC(=O)C3=CC(O)=C(O)C(O)=C3)C2OC(=O)C2=CC(O)=C(O)C(O)=C2)C(O)=C(O)C(O)=C1
+Rugosin D,OC1=CC(=CC(O)=C1O)C(=O)OC1OC2COC(=O)C3=C(C(O)=C(O)C(OC4=C(O)C(O)=C(O)C=C4C(=O)OC4OC5COC(=O)C6=C(C(O)=C(O)C(O)=C6)C6=C(C=C(O)C(O)=C6O)C(=O)OC5C(OC(=O)C5=CC(O)=C(O)C(O)=C5)C4OC(=O)C4=CC(O)=C(O)C(O)=C4)=C3)C3=C(C=C(O)C(O)=C3O)C(=O)OC2C(OC(=O)C2=CC(O)=C(O)C(O)=C2)C1OC(=O)C1=CC(O)=C(O)C(O)=C1
+Tellimagrandin II,OC1=CC(=CC(O)=C1O)C(=O)OC1OC2COC(=O)C3=C(C(O)=C(O)C(O)=C3)C3=C(O)C(O)=C(O)C=C3C(=O)OC2C(OC(=O)C2=CC(O)=C(O)C(O)=C2)C1OC(=O)C1=CC(O)=C(O)C(O)=C1
+Cirsimaritin,COC1=C(OC)C(O)=C2C(=O)C=C(OC2=C1)C1=CC=C(O)C=C1
+8-Methoxycirsilineol,COC1=C(O)C=CC(=C1)C1=CC(=O)C2=C(O)C(OC)=C(OC)C(OC)=C2O1
+Fenugreekine,NC(=O)C1=NC(=CC=C1)[C@@H]1O[C@H](COP(O)(=O)OP(O)(=O)OC[C@H]2O[C@H]([C@H](O)[C@@H]2O)N2C=NC3=C2N=CN=C3N)[C@@H](O)[C@H]1O
+Ergosterol,CC(C)C(C)\C=C\C(C)C1CCC2C3=CC=C4CC(O)CCC4(C)C3CCC12C
+Hexyl acetate,CCCCCCOC(C)=O
+Hexanoic acid,CCCCCC(O)=O
+Parasorbic acid,CC1CC=CC(=O)O1
+Benzoic acid,OC(=O)C1=CC=CC=C1
+Peonidin 3-glucoside,COC1=C(O)C=CC(=C1)C1=[O+]C2=CC(O)=CC(O)=C2C=C1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
+(-)-Quinic acid,OC1CC(O)(CC(O)C1O)C(O)=O
+Arbutin,OCC1OC(OC2=CC=C(O)C=C2)C(O)C(O)C1O
+Neochlorogenic acid,O[C@@H]1C[C@@](O)(C[C@@H](OC(=O)\C=C\C2=CC=C(O)C(O)=C2)[C@H]1O)C(O)=O
+Cyanidin 3-glucoside,OC[C@H]1O[C@@H](OC2=CC3=C(C=C(O)C=C3O)[O+]=C2C2=CC(O)=C(O)C=C2)[C@H](O)[C@@H](O)[C@@H]1O
+4-Hexyl-gamma-butyrolactone,CCCCCCC1CCC(=O)O1
+4-Methylphenol,CC1=CC=C(O)C=C1
+Cyanidin 3-galactoside,OC[C@H]1O[C@@H](OC2=CC3=C(C=C(O)C=C3O)[O+]=C2C2=CC(O)=C(O)C=C2)[C@H](O)[C@@H](O)[C@H]1O
+Delphinidin 3-glucoside,OC[C@H]1O[C@@H](OC2=CC3=C(C=C(O)C=C3O)[O+]=C2C2=CC(O)=C(O)C(O)=C2)[C@H](O)[C@@H](O)[C@@H]1O
+Petunidin 3-glucoside,COC1=C(O)C(O)=CC(=C1)C1=[O+]C2=C(C=C1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C(O)=CC(O)=C2
+Verbenalin,COC(=O)C1=CO[C@@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H]2[C@@H](C)CC(=O)[C@H]12
+Butein,[H]\C(=C(\[H])C1=CC(O)=C(O)C=C1)C(=O)C1=C(O)C=C(O)C=C1
+Pipecolic acid,OC(=O)C1CCCCN1
+L-DOPA,N[C@@H](CC1=CC(O)=C(O)C=C1)C(O)=O
+Wyerone,CC\C=C/C#CC(=O)C1=CC=C(O1)\C=C/C(=O)OC
+Kaempferol 7-glucoside,OC[C@H]1O[C@@H](OC2=CC3=C(C(O)=C2)C(=O)C(O)=C(O3)C2=CC=C(O)C=C2)[C@H](O)[C@@H](O)[C@@H]1O
+Astragalin,OC[C@H]1O[C@@H](OC2=C(OC3=CC(O)=CC(O)=C3C2=O)C2=CC=C(O)C=C2)[C@H](O)[C@@H](O)[C@@H]1O
+epsilon-Viniferin,OC1=CC=C(\C=C\C2=CC(O)=CC3=C2[C@H]([C@@H](O3)C2=CC=C(O)C=C2)C2=CC(O)=CC(O)=C2)C=C1
+D-Mannose,OCC(O)C(O)C(O)C(O)C=O.OCC(O)C1OC(O)C(O)C1O.OCC1OC(O)C(O)C(O)C1O
+(E)-Zeatin,C\C(CO)=C/CNC1=NC=NC2=C1NC=N2
+Melatonin,COC1=CC=C2NC=C(CCNC(C)=O)C2=C1
+Calmodulin,NCCCC[C@H](NC=O)C(N)=O
+2-Heptanone,CCCCCC(C)=O
+Aconitic acid,OC(=O)C\C(=C\C(O)=O)C(O)=O
+Methyl phenylacetate,COC(=O)CC1=CC=CC=C1
+Ethyl phenylacetate,CCOC(=O)CC1=CC=CC=C1
+2-Nonanol,CCCCCCCC(C)O
+trans-Ferulic acid,COC1=C(O)C=CC(\C=C\C(O)=O)=C1
+(S)-[8]-Gingerol,CCCCCCCC(O)CC(=O)CCC1=CC(OC)=C(O)C=C1
+[6]-Shogaol,CCCCCC=CC(=O)CCC1=CC(OC)=C(O)C=C1
+Gingerenone C,COC1=C(O)C=CC(CCC(=O)\C=C\CCC2=CC=C(O)C=C2)=C1
+Isogingerenone B,COC1=CC(CCC(=O)\C=C\CCC2=CC(OC)=C(O)C=C2)=CC(OC)=C1O
+Gingerenone B,COC1=CC(CCC(=O)\C=C\CCC2=CC(OC)=C(O)C(OC)=C2)=CC=C1O
+Farnesal,CC(C)=CCC\C(C)=C\CC\C(C)=C\C=O
+2-Methylpropanoic acid,CC(C)C(O)=O
+4-Hydroxyproline,OC1CNC(C1)C(O)=O
+Gallocatechin,O[C@H]1CC2=C(O)C=C(O)C=C2O[C@@H]1C1=CC(O)=C(O)C(O)=C1
+Lactic acid,CC(O)C(O)=O
+D-Galactose,OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@H]1O
+Arachidonic acid,CCCCC\C=C/C\C=C/C\C=C/C\C=C/CCCC(O)=O
+Isopulegone,CC1CCC(C(C)=C)C(=O)C1
+2-Methylphenol,CC1=CC=CC=C1O
+2-Methoxyphenol,COC1=C(O)C=CC=C1
+2-Hydroxybenzaldehyde,OC1=CC=CC=C1C=O
+5-Dodecanolide,CCCCCCCC1CCCC(=O)O1
+Alliin,N[C@@H](CS(=O)CC=C)C(O)=O
+Uttronin A,CC1C2C(CC3C4CCC5CC(CCC5(C)C4CCC23C)OC2OC(CO)C(OC3OC(CO)C(O)C(OC4OCC(O)C(O)C4O)C3OC3OC(CO)C(O)C(O)C3O)C(O)C2O)OC11CCC(C)CO1
+S-Allylmercaptocysteine,N[C@@H](CSSCC=C)C(O)=O
+Allyl alcohol,OCC=C
+Ajoene,C=CCSS\C=C/CS(=O)CC=C
+2-Propenyl propyl disulfide,CCCSSCC=C
+Allicin,C=CCSS(=O)CC=C
+S-Allylcysteine,NC(CSCC=C)C(O)=O
+"2-Vinyl-4H-1,3-dithiine",C=CC1SCC=CS1
+Methyl 2-propenyl disulfide,CSSCC=C
+"Cyanidin 3,5-diglucoside",OC[C@H]1O[C@@H](OC2=CC3=C(O[C@@H]4OC(CO)[C@@H](O)[C@H](O)[C@H]4O)C=C(O)C=C3[O+]=C2C2=CC(O)=C(O)C=C2)[C@H](O)[C@@H](O)[C@@H]1O
+2-Phenylethylamine,NCCC1=CC=CC=C1
+Apigenin,OC1=CC=C(C=C1)C1=CC(=O)C2=C(O)C=C(O)C=C2O1
+Hesperetin,COC1=C(O)C=C(C=C1)[C@@H]1CC(=O)C2=C(O)C=C(O)C=C2O1
+Cyanidin,OC1=CC2=[O+]C(=C(O)C=C2C(O)=C1)C1=CC(O)=C(O)C=C1
+Delphinidin,OC1=CC2=[O+]C(=C(O)C=C2C(O)=C1)C1=CC(O)=C(O)C(O)=C1
+Malvidin,COC1=CC(=CC(OC)=C1O)C1=C(O)C=C2C(O)=CC(O)=CC2=[O+]1
+Peonidin,COC1=C(O)C=CC(=C1)C1=[O+]C2=CC(O)=CC(O)=C2C=C1O
+Petunidin,COC1=CC(=CC(O)=C1O)C1=C(O)C=C2C(O)=CC(O)=CC2=[O+]1
+Pelargonidin,OC1=CC=C(C=C1)C1=[O+]C2=CC(O)=CC(O)=C2C=C1O
