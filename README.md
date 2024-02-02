@@ -1,6 +1,6 @@
 # Deep learning-based food-compound QSAR of food tastes
 
-Machine learning-based high-throughout virtual screening (HTVS) has been applied for molecular taste prediction using in food chemistry (Rojas et al, 2023; Song et al., 2023). We adopt neural networks (CNN or LSTM) for quantitative structure-activity relationship (QSAR) of food taste response using food-compound matrix.
+Machine learning-based high-throughout virtual screening (HTVS) has been applied for molecular taste prediction using in food chemistry (Rojas et al, 2023; Song et al., 2023; He et al., 2024). We adopt neural networks (CNN or LSTM) for quantitative structure-activity relationship (QSAR) of food taste response using food-compound matrix.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ args.cuda = args.use_cuda and torch.cuda.is_available()
 
 ## Datasets
 
-Herein, `taste.csv` is collected from https://github.com/songyu2022/taste_predict (Song et al., 2023). Each molecule in `taste.csv` includes three labels: bitter, sweet and umami. The label is 1 if the molecule is bitter (or sweet or umami), else 0.
+Herein, molecules in `taste.csv` are collected from https://github.com/songyu2022/taste_predict (Song et al., 2023) or https://kokumipd.com/database (He et al., 2024), which are annotated in `database` column of `taste.csv` as 1 or 2, respectively. Each molecule in `taste.csv` is categorized in one of these seven taste labels: bitter, sweet, umami, kokumi, salty, sour and tasteless. For each taste, machine learning model outputs a prediction score ranged in (0,1). Following He et al. (2024), the highest score of all seven tastes can describe the main taste of the molecule.
 
 In each dataset, `food.csv` includes names and categories of foods. `compound.csv` includes names and SMILES codes of compounds. `food-compound.csv` includes food-compound associations.
 
@@ -85,6 +85,8 @@ We adopt Morgan fingerprint (length=1024, radius=3, i.e. ECFP6) as molecular fea
 ## References
 
 Ahn et al., Flavor network and the principles of food pairing, Sci Rep, 2011
+
+He et al., Building a Kokumi Database and Machine Learning-Based Prediction: A Systematic Computational Study on Kokumi Analysis, J Chem Inf Model, 2024
 
 Rahman et al., A novel graph mining approach to predict and evaluate food-drug interactions, Sci Rep, 2021
 
