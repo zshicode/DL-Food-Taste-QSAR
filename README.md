@@ -1,6 +1,6 @@
 # Deep learning-based food-compound QSAR of food tastes
 
-Machine learning-based high-throughout virtual screening (HTVS) has been applied for molecular taste prediction using in food chemistry (Rojas et al, 2023; Song et al., 2023; He et al., 2024). We adopt neural networks (CNN or LSTM) for quantitative structure-activity relationship (QSAR) of food taste response using food-compound matrix.
+Machine learning-based high-throughout virtual screening (HTVS) has been applied for molecular taste prediction (Rojas et al, 2023; Song et al., 2023; He et al., 2024) and fragrance prediction (King-Smith, 2023) using in food and medicinal chemistry. We adopt neural networks (CNN or LSTM) for quantitative structure-activity relationship (QSAR) of food taste or fragrance response using food-compound matrix.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ rdkit
 2. Run `score.py` to run the model.
 
 ```bash
-python main.py --data 1 --model LSTM --taste bitter
+python main.py --data 1 --model LSTM --taste bitter --frag alcoholic
 ```
 
 After running `score.py`, the script outputs the predicted taste score of foods (see Method), and saves the result as CSV file.
@@ -53,6 +53,10 @@ parser.add_argument('--model', type=str, default='LSTM',
                     help='Model')
 parser.add_argument('--taste', type=str, default='bitter',
                     help='Taste')               
+parser.add_argument('--frag', type=str, default='alcoholic',
+                    help='Fragrance')
+parser.add_argument('--all-frag', type=bool, default=False,
+                    help='Predicting all fragrance')
 
 args = parser.parse_args()
 args.cuda = args.use_cuda and torch.cuda.is_available()
@@ -61,6 +65,8 @@ args.cuda = args.use_cuda and torch.cuda.is_available()
 ## Datasets
 
 Herein, molecules in `taste.csv` are collected from https://github.com/songyu2022/taste_predict (Song et al., 2023) or https://kokumipd.com/database (He et al., 2024), which are annotated in `database` column of `taste.csv` as 1 or 2, respectively. Each molecule in `taste.csv` is categorized in one of these seven taste labels: bitter, sweet, umami, kokumi, salty, sour and tasteless. For each taste, machine learning model outputs a prediction score ranged in (0,1). Following He et al. (2024), the highest score of all seven tastes can describe the main taste of the molecule.
+
+Molecules in `fragrance.csv` are collected from https://github.com/emmaking-smith/Modular_Latent_Space (King-Smith, 2023). Each molecule in `fragrance.csv` is categorized in some of all 113 fragrance labels in `frag_dict.txt`. Note that one molecule is usually with more than one fragrance. 
 
 In each dataset, `food.csv` includes names and categories of foods. `compound.csv` includes names and SMILES codes of compounds. `food-compound.csv` includes food-compound associations.
 
@@ -80,13 +86,19 @@ Data3 is a refined version of Data1. However, the score is defined as contributi
 
 ## Method
 
-We adopt Morgan fingerprint (length=1024, radius=3, i.e. ECFP6) as molecular feature. The model is trained and evaluated by 2-fold cross validation for classification of the data in `taste.csv`. Then, the model is adopt for bitter (or sweet or umami) taste prediction of food-compounds in Data1 (or Data2 or Data3). The taste prediction of a food is the weighted mean value of the compounds in this food, weighted by the score of food-compound pairs.
+We adopt Morgan fingerprint (length=1024, radius=3, i.e. ECFP6) as molecular feature. The model is trained and evaluated by 2-fold cross validation for classification of the data in `taste.csv` or `fragrance.csv`. Then, the model is adopt for bitter (or sweet or umami) taste prediction, or single fragrance prediction, of food-compounds in Data1 (or Data2 or Data3). The prediction of a food is the weighted mean value of the compounds in this food, weighted by the score of food-compound pairs. Besides, `baseline.py` can predict all 113 fragrance scores and output the top-5 highest labels as the description of molecular frgrance in single running when adopting
+
+```bash
+python baseline.py --all-frag True
+```
 
 ## References
 
 Ahn et al., Flavor network and the principles of food pairing, Sci Rep, 2011
 
 He et al., Building a Kokumi Database and Machine Learning-Based Prediction: A Systematic Computational Study on Kokumi Analysis, J Chem Inf Model, 2024
+
+King-Smith. Transfer learning for a foundational chemistry model. Chem Sci. 2023
 
 Rahman et al., A novel graph mining approach to predict and evaluate food-drug interactions, Sci Rep, 2021
 

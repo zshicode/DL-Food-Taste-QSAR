@@ -1,4 +1,4 @@
-name,smiles,bitter,sweet,umami,kokumi,salty,sour,tasteless,database
+Ôªøname,smiles,bitter,sweet,umami,kokumi,salty,sour,tasteless,database
 "7,11b-dihydro-6H-indeno[2,1-c]chromene-3,4,6a,9,10-pentol",Oc1cc2c(cc1O)C1c3ccc(c(c3OCC1(O)C2)O)O,0,1,0,0,0,0,0,1
 Compound2,CC(C)=CCCC(C)(O)C1CC(O)C(=CC1=O)C,0,1,0,0,0,0,0,1
 Compound3,CC(=O)OC1C(Oc2cc(cc(c2C1=O)O)O)c1ccc(c(c1)O)O,0,1,0,0,0,0,0,1
@@ -2601,7 +2601,7 @@ Compound2599,[Na+].[O-]S(=O)(=O)NC1CSC1,0,0,0,0,0,0,1,1
 Compound2600,[Na+].[O-]S(=O)(=O)NC1CCCCCSC1,0,0,0,0,0,0,1,1
 Compound2601,[Na+].[O-]S(=O)(=O)NC1CCCCSCC1,0,0,0,0,0,0,1,1
 "1,2,4-trihydroxyheptadeca-16-yne",C#CCCCCCCCCCCCC(O)CC(O)CO,0,0,0,1,0,0,0,2
-"1-acetoxy Èà?,4-dihydroxyheptadeca-16-yne",C#CCCCCCCCCCCCC(O)CC(O)COC(C)=O,0,0,0,1,0,0,0,2
+"1-acetoxy Èñ≥?,4-dihydroxyheptadeca-16-yne",C#CCCCCCCCCCCCC(O)CC(O)COC(C)=O,0,0,0,1,0,0,0,2
 1-acetoxy-2-hydroxy-4-oxoheptadeca-16-ene,C=CCCCCCCCCCCCC(=O)CC(O)COC(C)=O,0,0,0,1,0,0,0,2
 "1,2,4-trihydroxyheptadeca-16-ene",C=CCCCCCCCCCCCC(O)CC(O)CO,0,0,0,1,0,0,0,2
 "1-acetoxy-2,4-dihydroxyheptadeca-16-ene",C=CCCCCCCCCCCCC(O)CC(O)COC(C)=O,0,0,0,1,0,0,0,2
@@ -2731,10 +2731,10 @@ gamma-Glu-Thr,CC(O)C(NC(=O)CCC(N)C(=O)O)C(=O)O,0,0,0,1,0,0,0,2
 "1-acetoxy-2-hydroxy-4-oxoheneicosa-5,12,15-triene",CC=CCC=CCCCCCC=CC(=O)CC(O)COC(C)=O,0,0,0,1,0,0,0,2
 "1-acetoxy-2-hydroxy-4-oxoheneicosa-12,15-diene",CC=CCC=CCCCCCCCC(=O)CC(O)COC(C)=O,0,0,0,1,0,0,0,2
 Trans-(+)-S-propenyl-l-cysteine sulfoxide,CC=CS(=O)CC(N)C(=O)O,0,0,0,1,0,0,0,2
-gamma-L-Glu-L-Cys-L-Cys-(+/Èà?-SO,CC=CS(=O)CC(NC(=O)C(CS)NC(=O)CCC(N)C(=O)O)C(=O)O,0,0,0,1,0,0,0,2
+gamma-L-Glu-L-Cys-L-Cys-(+/Èñ≥?-SO,CC=CS(=O)CC(NC(=O)C(CS)NC(=O)CCC(N)C(=O)O)C(=O)O,0,0,0,1,0,0,0,2
 gamma-glutamyl-trans-S-propenyl-l-cysteine sulfoxide,CC=CS(=O)CC(NC(=O)CCC([N])C(=O)O)C(=O)O,0,0,0,1,0,0,0,2
  gamma-L-glutamyl-(E)-S-1-propenyl-L-cysteinyl-gamma-L-glutamyl-(E)-S-1-propenyl-L-cysteine[gamma-L-Glu-L-Cys-gamma-L-Glu-L-Cys],CC=CSCC(NC(=O)CC(NC(=O)C(CSC=CC)NC(=O)CCC(N)C(=O)O)C(=O)O)C(=O)O,0,0,0,1,0,0,0,2
-glu-(E)-S-(propen-1-yl)-L-cys-(E)-S-(propen-1-yl)-L-cys-(+/Èà?-SO,CC=CSCC(NC(=O)CCC(N)C(=O)O)C(=O)NC(CS(=O)C=CC)C(=O)O,0,0,0,1,0,0,0,2
+glu-(E)-S-(propen-1-yl)-L-cys-(E)-S-(propen-1-yl)-L-cys-(+/Èñ≥?-SO,CC=CSCC(NC(=O)CCC(N)C(=O)O)C(=O)NC(CS(=O)C=CC)C(=O)O,0,0,0,1,0,0,0,2
 Ile-Val,CCC(C)C(N)C(=O)NC(C(=O)O)C(C)C,0,0,0,1,0,0,0,2
 Ile-Thr,CCC(C)C(N)C(=O)NC(C(=O)O)C(C)O,0,0,0,1,0,0,0,2
 Ile-Glu,CCC(C)C(N)C(=O)NC(CCC(=O)O)C(=O)O,0,0,0,1,0,0,0,2
@@ -2880,7 +2880,7 @@ GHGD,NCC(=O)N[C@@H](Cc1c[nH]cn1)C(=O)NCC(=O)N[C@@H](CC(=O)O)C(=O)O,0,0,0,1,0,0,0
 Gly-His-Gly-Asp,NCC(=O)N[C@@H](Cc1cnc[nH]1)C(=O)NCC(=O)N[C@@H](CC(=O)O)C(=O)O,0,0,0,1,0,0,0,2
 L-Ornithine,NCCCC(N)C(=O)O,0,0,0,1,0,0,0,2
 gamma-Glu-Orn,NCCCC(NC(=O)CCC(N)C(=O)O)C(=O)O,0,0,0,1,0,0,0,2
-lysyl-aspartyl-glutaminyl-prolineËÅ?NCCCC[C@H](N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CCC(N)=O)C(=O)N1CCC[C@H]1C(=O)O,0,0,0,1,0,0,0,2,
+lysyl-aspartyl-glutaminyl-proline,NCCCC[C@H](N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CCC(N)=O)C(=O)N1CCC[C@H]1C(=O)O,0,0,0,1,0,0,0,2
 DGFP,N[C@@H](CC(=O)O)C(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)O,0,0,0,1,0,0,0,2
 DFE,N[C@@H](CC(=O)O)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCC(=O)O)C(=O)O,0,0,0,1,0,0,0,2
 EGF,N[C@@H](CCC(=O)O)C(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)O,0,0,0,1,0,0,0,2

@@ -29,6 +29,10 @@ parser.add_argument('--model', type=str, default='LSTM',
                     help='Model')
 parser.add_argument('--taste', type=str, default='bitter',
                     help='Taste')               
+parser.add_argument('--frag', type=str, default='alcoholic',
+                    help='Fragrance')
+parser.add_argument('--all-frag', type=bool, default=False,
+                    help='Predicting all fragrance')
 
 args = parser.parse_args()
 
@@ -52,54 +56,79 @@ if path == './Data1/': x = 0.1*(np.log10(x+1e-5)+5)
 s = np.loadtxt(path+'fps.txt')
 #x = x.dot(s)
 tst = pd.read_csv('taste.csv')
-fp = tst['smiles'].apply(ecfp)
-fpLength = len(fp[0])
-fps = np.zeros((len(fp),fpLength))
-for i in range(len(fp)):
-    arr = np.zeros((1,))
-    DataStructs.ConvertToNumpyArray(fp[i],arr)
-    fps[i] = arr
+frag = pd.read_csv('fragrance.csv')
 
-y = tst[args.taste].values
-kf = StratifiedKFold(n_splits=2,shuffle=True)
-predict = np.zeros_like(y)
-
-for train,test in kf.split(fps,y):
-    xt = fps[train]
-    xv = fps[test]
-    yt = y[train]
-    yv = y[test]
-    if args.model == 'SVM': clf = SVR()
-    else: clf = lgb.LGBMRegressor(max_depth=5,n_estimators=50)
-    clf.fit(xt,yt)
-    predict = clf.predict(xv)
-    fpr,tpr,th = roc_curve(yv,predict)
+def test(tst,q):
+    fp = tst['smiles'].apply(ecfp)
+    fpLength = len(fp[0])
+    fps = np.zeros((len(fp),fpLength))
+    kf = StratifiedKFold(n_splits=2,shuffle=True)
+    for i in range(len(fp)):
+        arr = np.zeros((1,))
+        DataStructs.ConvertToNumpyArray(fp[i],arr)
+        fps[i] = arr
+    
+    y = tst[q].values
+    predict = np.zeros(len(y))
+    for train,test in kf.split(fps,y):
+        xt = fps[train]
+        xv = fps[test]
+        yt = y[train]
+        if args.model == 'SVM': clf = SVR()
+        else: clf = lgb.LGBMRegressor(max_depth=5,n_estimators=50,n_jobs=-1)
+        clf.fit(xt,yt)
+        predict[test] = clf.predict(xv)
+    
+    predict -= predict.min()
+    predict /= predict.max()
+    fpr,tpr,th = roc_curve(y,predict)
     pred = np.ones(len(predict))
     for i in range(len(predict)):
         if predict[i]<th[np.argmax(tpr-fpr)]: pred[i] = 0.0
 
-    confusion = confusion_matrix(yv,pred)
-    print("AUROC Sn Sp Pre Acc F1 Mcc")
     res = [
-        roc_auc_score(yv,predict),
-        sensitivity(yv,pred),
-        specificity(yv,pred),
-        precision_score(yv,pred),
-        accuracy_score(yv,pred),
-        f1_score(yv,pred),
-        matthews_corrcoef(yv,pred)
+        roc_auc_score(y,predict),
+        sensitivity(y,pred),
+        specificity(y,pred),
+        precision_score(y,pred),
+        accuracy_score(y,pred),
+        f1_score(y,pred),
+        matthews_corrcoef(y,pred)
     ]
-    print(res)
-    plt.figure()
-    seaborn.heatmap(confusion,annot=True,cbar=False,fmt='d',
-        xticklabels=[0,1],
-        yticklabels=[0,1])
-    plt.xlabel('Pred')
-    plt.ylabel('True')
-    plt.ylim(2,0)
-    #plt.tight_layout()
-    plt.show()
+    if args.all_frag:
+        return [q]+res,predict
+    else:
+        confusion = confusion_matrix(y,pred)
+        print("AUROC Sn Sp Pre Acc F1 Mcc")
+        print(res)
+        plt.figure()
+        seaborn.heatmap(confusion,annot=True,cbar=False,fmt='d',
+            xticklabels=[0,1],
+            yticklabels=[0,1])
+        plt.xlabel('Pred')
+        plt.ylabel('True')
+        plt.ylim(2,0)
+        #plt.tight_layout()
+        plt.show()
+        score = clf.predict(s)
+        f['score'] = np.dot(x,score)/(x.sum(axis=-1)+1e-5)
+        f.to_csv(q+'-pred.csv',index=False)
 
-score = clf.predict(s)
-f['score'] = np.dot(x,score)/(x.sum(axis=-1)+1e-5)
-f.to_csv(args.taste+'-pred.csv',index=False)
+#test(tst,args.taste)
+#test(frag,args.frag)
+if args.all_frag:
+    txt = np.loadtxt('frag_dict.txt',dtype=str)
+    frags = frag
+    df = pd.DataFrame(columns=['Name','AUROC','Sn','Sp','Pre','Acc','F1','Mcc'])
+    for t in txt:
+        res,score = test(frag,t)
+        df.loc[len(df)] = res
+        frags[t] = score
+    
+    ddf = pd.DataFrame(columns=['Name','Rank1','Rank2','Rank3','Rank4','Rank5'])
+    for i in range(len(frags)):
+        ddf.loc[i] = [frags.loc[i]['name']]+list(frags.loc[i][4:].sort_values(ascending=False).index[:5])
+    
+    df.loc[len(df)] = ['Average']+list(df.mean().values)
+    #df.to_csv('metric.csv',index=False,float_format='%.3f')
+    ddf.to_csv('description.csv',index=False)

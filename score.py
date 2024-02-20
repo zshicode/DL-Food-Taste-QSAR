@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--use-cuda', default=False,
                     help='CUDA training.')
 parser.add_argument('--seed', type=int, default=1, help='Random seed.')
-parser.add_argument('--epochs', type=int, default=50,
+parser.add_argument('--epochs', type=int, default=100,
                     help='Number of epochs to train.')
 parser.add_argument('--lr', type=float, default=0.01,
                     help='Learning rate.')
@@ -30,6 +30,10 @@ parser.add_argument('--model', type=str, default='LSTM',
                     help='Model')
 parser.add_argument('--taste', type=str, default='bitter',
                     help='Taste')               
+parser.add_argument('--frag', type=str, default='alcoholic',
+                    help='Fragrance')
+parser.add_argument('--all-frag', type=bool, default=False,
+                    help='Predicting all fragrance')
 
 args = parser.parse_args()
 args.cuda = args.use_cuda and torch.cuda.is_available()
@@ -56,16 +60,8 @@ if path == './Data1/': x = 0.1*(np.log10(x+1e-5)+5)
 s = np.loadtxt(path+'fps.txt')
 #x = x.dot(s)
 tst = pd.read_csv('taste.csv')
-fp = tst['smiles'].apply(ecfp)
-fpLength = len(fp[0])
-fps = np.zeros((len(fp),fpLength))
-for i in range(len(fp)):
-    arr = np.zeros((1,))
-    DataStructs.ConvertToNumpyArray(fp[i],arr)
-    fps[i] = arr
-
-y = tst[args.taste].values
-kf = StratifiedKFold(n_splits=2,shuffle=True)
+frag = pd.read_csv('fragrance.csv')
+s = torch.from_numpy(s).float().unsqueeze(1)
 
 class CNNNet(nn.Module):
     def __init__(self):
@@ -121,58 +117,68 @@ class LSTMNet(nn.Module):
         x = F.sigmoid(self.lin(x).squeeze())
         return x
 
-predict = np.zeros_like(y)
-s = torch.from_numpy(s).float().unsqueeze(1)
-fps = torch.from_numpy(fps).float().unsqueeze(1)
-y = torch.from_numpy(y).float()
+def test(tst,q,s):
+    fp = tst['smiles'].apply(ecfp)
+    fpLength = len(fp[0])
+    fps = np.zeros((len(fp),fpLength))
+    for i in range(len(fp)):
+        arr = np.zeros((1,))
+        DataStructs.ConvertToNumpyArray(fp[i],arr)
+        fps[i] = arr
 
-for train,test in kf.split(fps,y):
-    yt = y[train]
-    yv = y[test]
-    if args.model == 'CNN': clf = CNNNet()
-    else: clf = LSTMNet()
-    if args.cuda:
-        clf = clf.cuda()
-        fps = fps.cuda()
-        s = s.cuda()
-        yt = yt.cuda()
-    
-    opt = torch.optim.Adam(clf.parameters(),lr=args.lr,weight_decay=args.wd)
-    clf.train()
-    for e in range(args.epochs):     
+    y = tst[q].values
+    kf = StratifiedKFold(n_splits=2,shuffle=True)
+    predict = np.zeros(len(y))
+    y = torch.from_numpy(y).float()
+    fps = torch.from_numpy(fps).float().unsqueeze(1)
+    for train,test in kf.split(fps,y):
+        yt = y[train]
+        yv = y[test]
+        if args.model == 'CNN': clf = CNNNet()
+        else: clf = LSTMNet()
+        if args.cuda:
+            clf = clf.cuda()
+            fps = fps.cuda()
+            s = s.cuda()
+            yt = yt.cuda()
+        
+        opt = torch.optim.Adam(clf.parameters(),lr=args.lr,weight_decay=args.wd)
+        clf.train()
+        for e in range(args.epochs):     
+            z = clf(fps)
+            loss = F.mse_loss(z[train],yt)
+            opt.zero_grad()
+            loss.backward()
+            opt.step()
+            if e%10 == 0 and e!=0:
+                print('Epoch %d | Lossp: %.4f' % (e, loss.item()))
+        
+        clf.eval()
         z = clf(fps)
-        loss = F.mse_loss(z[train],yt)
-        opt.zero_grad()
-        loss.backward()
-        opt.step()
-        if e%10 == 0 and e!=0:
-            print('Epoch %d | Lossp: %.4f' % (e, loss.item()))
+        if args.cuda:
+            z = z.cpu().detach().numpy()
+        else:
+            z = z.detach().numpy()
+        
+        predict[test] = z[test]
     
-    clf.eval()
-    z = clf(fps)
-    if args.cuda:
-        z = z.cpu().detach().numpy()
-    else:
-        z = z.detach().numpy()
-    
-    predict = z[test]
     predict -= predict.min()
     predict /= predict.max()
-    fpr,tpr,th = roc_curve(yv,predict)
+    fpr,tpr,th = roc_curve(y,predict)
     pred = np.ones(len(predict))
     for i in range(len(predict)):
         if predict[i]<th[np.argmax(tpr-fpr)]: pred[i] = 0.0
 
-    confusion = confusion_matrix(yv,pred)
+    confusion = confusion_matrix(y,pred)
     print("AUROC Sn Sp Pre Acc F1 Mcc")
     res = [
-        roc_auc_score(yv,predict),
-        sensitivity(yv,pred),
-        specificity(yv,pred),
-        precision_score(yv,pred),
-        accuracy_score(yv,pred),
-        f1_score(yv,pred),
-        matthews_corrcoef(yv,pred)
+        roc_auc_score(y,predict),
+        sensitivity(y,pred),
+        specificity(y,pred),
+        precision_score(y,pred),
+        accuracy_score(y,pred),
+        f1_score(y,pred),
+        matthews_corrcoef(y,pred)
     ]
     print(res)
     plt.figure()
@@ -185,14 +191,17 @@ for train,test in kf.split(fps,y):
     #plt.tight_layout()
     plt.show()
 
-score = clf(s)
-if args.cuda:
-    score = score.cpu().detach().numpy()
-else:
-    score = score.detach().numpy()
+    score = clf(s)
+    if args.cuda:
+        score = score.cpu().detach().numpy()
+    else:
+        score = score.detach().numpy()
 
-predict = np.dot(x,score)/(x.sum(axis=-1)+1e-5)
-predict -= predict.min()
-predict /= predict.max()
-f['score'] = predict
-f.to_csv(args.taste+'-pred.csv',index=False)
+    predict = np.dot(x,score)/(x.sum(axis=-1)+1e-5)
+    predict -= predict.min()
+    predict /= predict.max()
+    f['score'] = predict
+    f.to_csv(q+'-pred.csv',index=False)
+
+test(tst,args.taste,s)
+test(frag,args.frag,s)
