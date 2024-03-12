@@ -1,6 +1,6 @@
 # Deep learning-based food-compound QSAR of food tastes
 
-Machine learning-based high-throughout virtual screening (HTVS) has been applied for molecular taste prediction (Rojas et al, 2023; Song et al., 2023; He et al., 2024) and fragrance prediction (King-Smith, 2023) using in food and medicinal chemistry. We adopt neural networks (CNN or LSTM) for quantitative structure-activity relationship (QSAR) of food taste or fragrance response using food-compound matrix.
+Machine learning-based high-throughout virtual screening (HTVS) has been applied for molecular taste prediction (Rojas et al, 2023; Song et al., 2023; He et al., 2024) and fragrance prediction (Lee et al., 2023; King-Smith, 2023) using in food and medicinal chemistry. We adopt neural networks (CNN or LSTM) for quantitative structure-activity relationship (QSAR) of food taste or fragrance response using food-compound matrix.
 
 ## Requirements
 
@@ -101,6 +101,8 @@ Ahn et al., Flavor network and the principles of food pairing, Sci Rep, 2011
 He et al., Building a Kokumi Database and Machine Learning-Based Prediction: A Systematic Computational Study on Kokumi Analysis, J Chem Inf Model, 2024
 
 King-Smith. Transfer learning for a foundational chemistry model. Chem Sci. 2023
+
+Lee et al., A principal odor map unifies diverse tasks in olfactory perception, Science, 2023
 
 Rahman et al., A novel graph mining approach to predict and evaluate food-drug interactions, Sci Rep, 2021
 
