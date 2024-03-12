@@ -30,6 +30,8 @@ After running `score.py`, the script outputs the predicted taste score of foods 
 
 For comparison, this repo also implements SVM and LightGBM for this task, see `baseline.py`.
 
+The script `qsar.py` outputs the taste prediction and fragrance prediction of the compound molecules and foods.
+
 ## Options
 
 We adopt an argument parser by package  `argparse` in Python, and the options for running code are defined as follow:
